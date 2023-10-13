@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <form action="/action_page.php">
+        <fieldset>
+            <legend style="color:red">Registration Form</legend>
+
+            <!-- <p> name</p> -->
+
+            <label for="name" >Name</label>
+            <span style="color:red">*</span>
+            <input type="text" id="name" name="name" placeholder="Md. Ashaduzzaman Biddut">
+            <br><br>
+
+          <!-- <p>phone</p> -->
+
+            <label for="phone">Phone</label>
+            <span style="color:red">*</span>
+            <input type="phone" id="phone" name="phone" placeholder="+880">
+            <br><br>
+
+            <!-- <p>email</p> -->
+
+            <label for="email">Email</label>
+            <span style="color:red">*</span>
+            <input type="mail" id="email" name="email" placeholder="example@gmail.com">
+            <br><br>
+
+            <!-- <p>password</p> -->
+
+            <label for="pass">Password</label>
+            
+            <input type="password" id="pass" name="password">
+            <br><br>
+
+            <!-- <p>date of birth</p> -->
+
+            <label for="dob">Date of birth</label>
+            <span style="color:red">*</span>
+            <input type="date" id="dob" name="dob">
+
+            <br><br>
+
+            <!-- <p>Message</p> -->
+
+            <label for="sms">Message</label><br>
+            <textarea name="sms" id="sms" cols="30" rows="10" placeholder="Type Your Message..."></textarea>
+            <br><br>
+
+            <!-- <p>radio button</p> -->
+
+            
+            <label for="gender">Gender</label>
+            <span style="color:red">*</span><br><br>
+            <input type="radio" id="gender" name="good" value="Male">
+            <label for="gender">Male</label>
+            <input type="radio" id="gender" name="good" value="Female">
+            <label for="gender">Female</label>
+            <input type="radio" id="gender" name="good" value="Other">
+            <label for="gender">Others</label>
+            <br><br>
+
+            <!-- <p>select button</p> -->
+
+            <label for="sel">Expert In</label>
+            <select id="sel" name="sel"  >
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="Javascript">Javascript</option>
+                <option value="Bootstrap">Bootstrap</option>
+                <option value="React js">React js</option>
+            </select>
+            <br><br>
+
+            <!-- <p>file upload</p> -->
+
+            <label for="file">Upload Your Photo</label>
+            <span style="color:red">*</span>
+            <input type="file" id="file"><br><br>
+
+            <!-- <p>checkbox</p> -->
+
+            <input type="checkbox" name="box" id="box">
+            <label for="box" >Accept Terms & Conditions</label>
+            <span style="color:red">*</span>
+            <br><br>
+
+           <!-- <p>submit and reset</p> -->
+
+            <input type="submit" value="Registration">
+            <input type="reset">
+
+        </fieldset>
+        </form>
+    </body>
+</html>
